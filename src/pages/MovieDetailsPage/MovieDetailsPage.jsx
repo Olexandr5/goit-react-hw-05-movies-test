@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import { BASE_IMG_URL } from 'services/constants';
 
-export const MovieDetailsPage = () => {
+const MovieDetailsPage = () => {
   const [details, setDetails] = useState(null);
   const { id } = useParams();
   const location = useLocation();
@@ -52,3 +52,5 @@ export const MovieDetailsPage = () => {
     </div>
   );
 };
+
+export default MovieDetailsPage;

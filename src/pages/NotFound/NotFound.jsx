@@ -1,7 +1,3 @@
 export const NotFound = () => {
-  return (
-    <div>
-      <h1>NotFound</h1>
-    </div>
-  );
+  return <img src="https://image.tmdb.org/t/p/w400null" alt="" />;
 };
